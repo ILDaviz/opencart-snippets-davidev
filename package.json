@@ -7,7 +7,7 @@
     "type": "git",
     "url": ""
   },
-  "icon": "icon.png",
+  "icon": "icon.jpg",
   "publisher": "davidev",
   "engines": {
     "vscode": "^1.27.0"
