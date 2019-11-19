@@ -1,0 +1,197 @@
+{
+    "cache-get": {
+        "prefix": ["$this->cache->get"],
+        "body": "\\$this->cache->get(${1:\\$key});",
+        "description": "Gets a cache by key name"
+    },
+    "cache-set": {
+        "prefix": ["$this->cache->set"],
+        "body": "\\$this->cache->get(${1:\\$key});",
+        "description": "Set value on cache by key name"
+    },
+    "cache-delete": {
+        "prefix": ["$this->cache->delete"],
+        "body": "\\$this->cache->delete(${1:\\$key},${2:\\$value});",
+        "description": "Delete cache by key name"
+    },
+    "config-get": {
+        "prefix": ["$this->config->get"],
+        "body": "\\$this->cache->get(${1:\\$key});",
+        "description": "Gets a config by key name"
+    },
+    "config-set": {
+        "prefix": ["$this->config->set"],
+        "body": "\\$this->cache->get(${1:\\$key},${2:\\$value});",
+        "description": "Set value on config by key name"
+    },
+    "config-has": {
+        "prefix": ["$this->config->has"],
+        "body": "\\$this->config->has(${1:\\$key});",
+        "description": "Has presence of key on config"
+    },
+    "config-load": {
+        "prefix": ["$this->config->load"],
+        "body": "\\$this->config->load(${1:\\$filename});",
+        "description": "Load config file"
+    },
+    "db-query": {
+        "prefix": ["$this->db->query"],
+        "body": "\\$this->db->query(${1:\\$query});",
+        "description": "Run query"
+    },
+    "db-escape": {
+        "prefix": ["$this->db->escape"],
+        "body": "\\$this->db->escape(${1:\\$value});",
+        "description": "Escape value"
+    },
+    "db-countAffected": {
+        "prefix": ["$this->db->countAffected"],
+        "body": "\\$this->db->countAffected();",
+        "description": "Count Affected"
+    },
+    "db-getLastId": {
+        "prefix": ["$this->db->getLastId"],
+        "body": "\\$this->db->getLastId();",
+        "description": "Get last id of operation sql"
+    },
+    "document-setTitle": {
+        "prefix": ["$this->document->setTitle"],
+        "body": "\\$this->document->setTitle(${1:\\$title});",
+        "description": "Set title document"
+    },
+    "document-getTitle": {
+        "prefix": ["$this->document->getTitle"],
+        "body": "\\$this->document->getTitle();",
+        "description": "Get title document"
+    },
+    "document-setDescription": {
+        "prefix": ["$this->document->setDescription"],
+        "body": "\\$this->document->setDescription(${1:\\$description});",
+        "description": "Set description document"
+    },
+    "document-getDescription": {
+        "prefix": ["$this->document->getDescription"],
+        "body": "\\$this->document->getDescription();",
+        "description": "Get description document"
+    },
+    "document-setKeywords": {
+        "prefix": ["$this->document->setKeywords"],
+        "body": "\\$this->document->setKeywords(${1:\\$keywords});",
+        "description": "Set keywords document"
+    },
+    "document-getKeywords": {
+        "prefix": ["$this->document->getKeywords"],
+        "body": "\\$this->document->getKeywords();",
+        "description": "Get keywords document"
+    },
+    "document-addLink": {
+        "prefix": ["$this->document->addLink"],
+        "body": "\\$this->document->addLink(${1:\\$link});",
+        "description": "Add link document"
+    },
+    "document-getLinks": {
+        "prefix": ["$this->document->getLinks"],
+        "body": "\\$this->document->getLinks();",
+        "description": "Get link document"
+    },
+    "document-addStyle": {
+        "prefix": ["$this->document->addStyle"],
+        "body": "\\$this->document->addStyle(${1:\\$heref},${2:\\$rel},${3:\\$media});",
+        "description": "Add style document"
+    },
+    "document-getStyles": {
+        "prefix": ["$this->document->getStyles"],
+        "body": "\\$this->document->getStyles();",
+        "description": "Get style document"
+    },
+    "document-addScript": {
+        "prefix": ["$this->document->addScript"],
+        "body": "\\$this->document->addScript(${1:\\$heref},${2:\\$postion});",
+        "description": "Add script document"
+    },
+    "document-getScripts": {
+        "prefix": ["$this->document->getScripts"],
+        "body": "\\$this->document->getScripts();",
+        "description": "Get script document"
+    },
+    "log-write": {
+        "prefix": ["$this->log->write"],
+        "body": "\\$this->log->write();",
+        "description": "Write log"
+    },
+    "request-get": {
+        "prefix": ["$this->request->get"],
+        "body": "\\$this->request->get['item'];",
+        "description": "Get request data"
+    },
+    "request-post": {
+        "prefix": ["$this->request->post"],
+        "body": "\\$this->request->post['item'];",
+        "description": "Post request data"
+    },
+    "request-request": {
+        "prefix": ["$this->request->request"],
+        "body": "\\$this->request->request['item'];",
+        "description": "Request request data"
+    },
+    "request-cookie": {
+        "prefix": ["$this->request->cookie"],
+        "body": "\\$this->request->cookie['item'];",
+        "description": "Cookie request data"
+    },
+    "request-files": {
+        "prefix": ["$this->request->files"],
+        "body": "\\$this->request->files['item'];",
+        "description": "Files request data"
+    },
+    "request-server": {
+        "prefix": ["$this->request->server"],
+        "body": "\\$this->request->server['REQUEST_METHOD'];",
+        "description": "Server request method data"
+    },
+    "url-link": {
+        "prefix": ["$this->url->link"],
+        "body": "\\$this->url->link(${1:\\$route},${2:\\$args},${3:\\$secure});",
+        "description": "Create link"
+    },
+    "language-set": {
+        "prefix": ["$this->language->set"],
+        "body": ["\\$this->language->set(${1:\\$key},${2:\\$value});"],
+        "description": "Language Set"
+    },
+    "language-get": {
+        "prefix": ["$this->language->get"],
+        "body": ["\\$this->language->get(${1:\\$key});"],
+        "description": "Language Get"
+    },
+    "language-all": {
+        "prefix": ["$this->language->all"],
+        "body": ["\\$this->language->all();"],
+        "description": "Language All"
+    },
+    "language-load": {
+        "prefix": ["$this->language->load"],
+        "body": ["\\$this->language->load(${1:\\$filename});"],
+        "description": "Language Load file"
+    },
+    "encryption-encrypt": {
+        "prefix": ["$this->encryption->decrypt"],
+        "body": ["\\$this->encryption->decrypt(${1:\\$key},${2:\\$value});"],
+        "description": "Encryption Encrypt"
+    },
+    "encryption-decrypt": {
+        "prefix": ["$this->encryption->decrypt"],
+        "body": ["\\$this->encryption->decrypt(${1:\\$key},${2:\\$value});"],
+        "description": "Encryption Decrypt"
+    },
+    "request-redirect": {
+        "prefix": ["$this->request->redirect"],
+        "body": ["\\$this->request->redirect(${1:\\$url},${2:\\$status});"],
+        "description": "Redirect link"
+    },
+    "session-data": {
+        "prefix": ["$this->session->data"],
+        "body": ["\\$this->session->data['name element'];"],
+        "description": "Read data from session"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "load-view": {
+        "prefix": ["$this->load->view","view"],
+        "body": "\\$this->load->view(${1:'foldername/filename'},${2:\\$data});",
+        "description": "Load the view"
+    },
+    "load-model": {
+        "prefix": ["$this->load->model","model"],
+        "body": "\\$this->load->model(${1:'foldername/filename'});",
+        "description": "Load the model"
+    },
+    "load-controller": {
+        "prefix": ["$this->load->controller","controller"],
+        "body": "\\$this->load->controller(${1:'foldername/filename'},${2:\\$data});",
+        "description": "Load the controller"
+    },
+    "load-language": {
+        "prefix": ["$this->load->language","language"],
+        "body": "\\$this->load->language(${1:'foldername/filename'},${2:\\$key});",
+        "description": "Load the language"
+    },
+    "load-library": {
+        "prefix": ["$this->load->library","library"],
+        "body": "\\$this->load->library(${1:'route to file'});",
+        "description": "Load the library"
+    },
+    "load-helper": {
+        "prefix": ["$this->load->helper","helper"],
+        "body": "\\$this->load->helper(${1:'route to file'});",
+        "description": "Load the helper"
+    },
+    "load-config": {
+        "prefix": ["$this->load->config","config"],
+        "body": "\\$this->load->config(${1:'route to file'});",
+        "description": "Load the config"
+    }
+}

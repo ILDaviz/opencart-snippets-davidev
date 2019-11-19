@@ -1,0 +1,41 @@
+{
+  "name": "ocsnippetsdiko",
+  "displayName": "Opencart Snippetsone Davidev ",
+  "description": "OpenCart snippets for Visual Studio Code. For contact [Contact Us](http://www.davidev.it/)",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "icon": "icon.png",
+  "publisher": "davidev",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "php",
+        "path": "./snippets/engine.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/library.json"
+      },
+      {
+        "language": "php",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/xmlsnippets.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^1.69.0"
+  }
+}
