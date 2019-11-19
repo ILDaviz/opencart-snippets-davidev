@@ -10,8 +10,8 @@
 - 📁 ocresponsejson : It create response json
 - 📁 ococbreadcrumbs : It create breadcrumbs
 ### PHP auto-complete snippets:
-- 🗃 snippet engine auto-complete element. ($this->load->..)
-- 🗃 snippet library auto-complete element. ($this->..)
+- 🗃 engine of opencart auto-complete element. ($this->load->..)
+- 🗃 library of opencart auto-complete element. ($this->..)
 ## Release Notes
 Users appreciate release notes as you update your extension.
 ### 1.0.0
