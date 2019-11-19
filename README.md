@@ -12,6 +12,9 @@
 ### PHP auto-complete snippets:
 - 🗃 engine of opencart auto-complete element. ($this->load->..)
 - 🗃 library of opencart auto-complete element. ($this->..)
+### XML OCMOD auto-complete snippets:
+- 🗃 ocmod : It creates new modificator
+- 🗃 ocmodf : It creates new file
 ## Release Notes
 Users appreciate release notes as you update your extension.
 ### 1.0.0
