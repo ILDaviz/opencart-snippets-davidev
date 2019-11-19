@@ -1,18 +1,21 @@
 # Opencart Snippets for VScode by [davidev.it](https://davidev.it)
 
-🐷 This VSCODE extension is for OpenCart 🙋‍♀️ developer which has a collection of OpenCart snippets.
+🐷 This VSCODE extension is for OpenCart 🙋‍♀️ developer which has a collection of 🛒 OpenCart 🖇 snippets.
 
 ## Documentation
 
 PHP page supported snippets:
 
--📁 occ : It creates new Controller class
--📁 ocm : It creates new Method or function
--📁 occm : It creates new starter Model class
--📁 ocmail : It creates new group mail
--📁 ocpagination : It create pagination option
--📁 ocresponsejson : It create response json
--📁 ococbreadcrumbs : It create breadcrumbs
+- 📁 occ : It creates new Controller class
+- 📁 ocm : It creates new Method or function
+- 📁 occm : It creates new starter Model class
+- 📁 ocmail : It creates new group mail
+- 📁 ocpagination : It create pagination option
+- 📁 ocresponsejson : It create response json
+- 📁 ococbreadcrumbs : It create breadcrumbs
+
+- 🗃 snippet engine auto-complete element.
+- 🗃 snippet library auto-complete element.
 
 ## Release Notes
 
@@ -22,4 +25,4 @@ Users appreciate release notes as you update your extension.
 
 - Initial release of Opencart Snippets for VScode
 
-🙇‍♂️ **Enjoy!** 🙇‍♂️
+**🙇 Enjoy! 🙇‍♂️** 
