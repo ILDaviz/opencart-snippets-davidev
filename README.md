@@ -1,5 +1,5 @@
 # 🛒Opencart Snippets ➡ VScode by [davidev.it](https://davidev.it) 🔝
-🐷 This VSCODE extension is for OpenCart 🙋‍♀️ developer which has a collection of 🛒 OpenCart 🖇 snippets.
+🐷 This VSCODE extension for OpenCart 🙋‍♀️! Collection of snippets for 🛒 OpenCart 🖇!
 ## Documentation
 ### PHP help supported snippets:
 - 📁 occ : It creates new Controller class
