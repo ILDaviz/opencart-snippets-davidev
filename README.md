@@ -1,4 +1,4 @@
-# 🛒Opencart Snippets ➡ VScode by 🔝 [davidev.it](https://davidev.it) 🔝
+# 🛒Opencart Snippets ➡ VScode by 🔝 [davidev.it](https://www.davidev.it) 🔝
 🐷 This VSCODE extension for OpenCart 🙋‍♀️! Collection of snippets for 🛒 OpenCart 🖇!
 ## Documentation
 ### PHP help supported snippets:
