@@ -2,7 +2,7 @@
   "name": "opencartsnippet",
   "displayName": "Opencart Snippet",
   "description": "OpenCart snippets for Visual Studio Code. For contact [Contact Us](http://www.davidev.it/)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/ILDaviz/opencart-snippets-davidev.git"
