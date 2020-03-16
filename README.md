@@ -1,4 +1,4 @@
-# 🛒Opencart Snippets ➡ VScode by 🔝 [davidev.it](http://www.davidev.it) 🔝
+# 🛒Opencart Snippets ➡ VScode by Davidev
 🐷 This VSCODE extension for OpenCart 🙋‍♀️! Collection of snippets for core 🛒 OpenCart 🖇!
 ## Documentation
 ### PHP help support snippets:
@@ -16,11 +16,5 @@
 ### XML OCMOD auto-complete snippets:
 - 📁 ocmod : It creates new modificator
 - 📁 ocmodf : It creates new file
-## Release Notes
-Users appreciate release notes as you update your extension.
-### 1.0.1
-- Add model auto-complete for call request this->model_route->function(params);
-### 1.0.0
-- Initial release of Opencart Snippets for VScode
 ### ------------------
 **🙇 Enjoy! 🙇‍♂️** 
